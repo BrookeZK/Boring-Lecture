@@ -6,3 +6,42 @@
 img {
   width: 500px;
 }
+
+.this {
+  cursor: pointer;
+}
+
+.this:hover {
+  text-decoration: underline;
+}
+
+.that {
+  cursor: pointer;
+}
+
+.that:hover {
+  text-decoration: underline;
+}
+
+.theOther {
+  cursor: pointer;
+}
+
+.theOther:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.highlight1 {
+  background-color: red;
+  border: 2px dotted black;
+}
+
+.highlight2 {
+  background-color: orange;
+  border: 2px dashed black;
+}
